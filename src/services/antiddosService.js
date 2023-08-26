@@ -9,7 +9,7 @@ const redisClient = new Redis(process.env.REDIS_URL, {
 
 const opts = {
   storeClient: redisClient,
-  points: 10, // Number of points
+  points: 1, // Number of points
   duration: 1, // Per second(s)
 };
 
